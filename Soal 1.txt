@@ -1,0 +1,9 @@
+Soal 1
+Buatlah program antrean pendaftaran pasien di rumah sakit menggunakan struktur data Queue (FIFO) berbasis linked list (menggunakan pointer).
+Spesifikasi:
+1.	Buat struct Pasien yang menyimpan data: idPasien (string), nama (string), keluhan (string), dan pointer next.
+2.	Implementasikan antrean FIFO dengan dua buah pointer utama: front dan rear.
+3.	Menu interaktif dengan input dari user:
+o	Enqueue (Tambah Pasien): Meminta input ID, nama, dan keluhan, lalu memasukkannya ke paling belakang antrean.
+o	Dequeue (Panggil Pasien): Menghapus dan menampilkan data pasien terdepan yang sedang dipanggil dokter.
+o	Display Queue: Menampilkan seluruh daftar pasien yang sedang mengantre dari depan ke belakang.

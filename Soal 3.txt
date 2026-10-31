@@ -1,0 +1,10 @@
+Soal 3: 
+Simulasikan hirarki folder/direktori sederhana pada sistem operasi menggunakan Binary Tree berbasis pointer.
+Spesifikasi:
+1.	Buat struct NodeFolder yang memuat: namaFolder (string), pointer parent, pointer firstChild (anak pertama), dan pointer nextSibling (saudara kandung).
+2.	Menu interaktif dengan input dari user:
+o	mkdir <nama_folder>: Menambahkan folder baru sebagai child dari folder yang sedang aktif (current directory).
+o	ls: Menampilkan semua sub-folder yang ada di dalam folder aktif.
+o	cd <nama_folder>: Pindah ke folder anak yang dituju.
+o	cd ..: Kembali ke folder induk (parent).
+

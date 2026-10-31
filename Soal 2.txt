@@ -1,0 +1,8 @@
+Soal 2
+Buatlah program yang mengonversi ekspresi aritmatika sederhana dari pengguna menjadi bentuk antrean token dan menghitung/menampilkan token secara berurutan.
+Spesifikasi:
+1.	Buat struct Token yang memiliki atribut value (string) dan tipe (string, contoh: "OPERAND" atau "OPERATOR").
+2.	Buat antrean FIFO berbasis Array dari Struct (struct Token queue[100]) lengkap dengan variabel front dan rear.
+3.	Program menerima input string berupa ekspresi matematika dari user (contoh: 12 + 5 * 3).
+4.	Program memilah (parse) string tersebut ke dalam array/queue token.
+5.	Proses antrean satu per satu secara FIFO untuk mencetak jenis token dan nilainya ke layar.

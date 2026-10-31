@@ -1,0 +1,10 @@
+Soal 5: 
+Buatlah program kamus kata berbasis Binary Search Tree (BST), dilengkapi dengan Array untuk mencatat riwayat kata yang terakhir dicari oleh user.
+Spesifikasi:
+1.	Buat struct NodeKamus untuk BST yang berisi: kata (string), arti (string), pointer left, dan pointer right.
+2.	Buat Array dari String (string riwayat[5]) untuk menyimpan 5 pencarian kata terakhir.
+3.	Fitur Interaktif:
+o	Tambah Kata (Insert BST): User memasukkan kata dan artinya. Node disisipkan berdasarkan urutan alfabetis kata.
+o	Cari Kata (Search BST): User memasukkan kata yang dicari. Jika ditemukan, tampilkan artinya dan tambahkan kata tersebut ke dalam Array Riwayat (jika array penuh, geser kata lama/replace).
+o	Lihat Riwayat: Tampilkan daftar kata yang pernah dicari user dari array riwayat.
+

@@ -1,0 +1,9 @@
+Soal 4: 
+Buatlah program antrean pemrosesan pesanan toko online yang disimpan dalam tabel/array dinamis menggunakan pointer.
+Spesifikasi:
+1.	Buat struct Pesanan yang berisi: idPesanan (string), namaBarang (string), dan jumlah (int).
+2.	Buat antrean Circular Queue berbasis Array Pointer Dinamis (struct Pesanan* antrean). Alokasikan memori array secara dinamis sesuai kapasitas yang diinput pengguna di awal program.
+3.	Fitur Interaktif:
+o	Terima Pesanan (Enqueue): User menginput ID, nama barang, dan jumlah. Masukkan ke antrean.
+o	Proses Pesanan (Dequeue): Hapus pesanan paling awal dan tampilkan nota pemrosesannya.
+o	Cek Antrean: Tampilkan status kapasitas array yang terpakai dan daftar pesanan saat ini.
