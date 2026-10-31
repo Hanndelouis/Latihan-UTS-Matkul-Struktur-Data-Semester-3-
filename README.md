@@ -136,14 +136,6 @@ Latihan ini membantu saya memahami bahwa struktur data tidak hanya berupa teori,
 - Git
 - GitHub
 
-## Tentang Repository
-
-Repository ini juga menjadi latihan pertama saya dalam menggunakan **Git dan GitHub** untuk menyimpan dan mengelola project yang dikerjakan melalui Visual Studio Code.
-
-Melalui repository ini saya mulai belajar workflow dasar:
-
-`Coding -> Save -> Commit -> Push -> GitHub`
-
 ## Author
 
 **Hanndelouis**
